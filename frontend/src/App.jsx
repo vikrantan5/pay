@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import Home from './pages/Home';
-import ProductDetail from './pages/ProductDetail';
-import AdminDashboard from './pages/AdminDashboard';
-import UserDashboard from './pages/UserDashboard';
-import Auth from './pages/Auth';
+import Home from './pages/Home.jsx';
+import ProductDetail from './pages/ProductDetail.jsx';
+import AdminDashboard from './pages/AdminDashboard.jsx';
+import UserDashboard from './pages/UserDashboard.jsx';
+import Auth from './pages/Auth.jsx';
 import { Toaster } from './components/ui/sonner';
 import './App.css';
 
